@@ -1,0 +1,87 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    padding:1% 4%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1pt solid rgb(131,133,144);
+}
+
+.nav-bar > .nav-menu{
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-bar > .nav-menu > .nav-items{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(131,133,144);
+}
+
+.nav-bar .nav-brand > img{
+    width: 150px;
+}
+
+#section1{
+    padding:1% 4%;
+    min-height: 90vh;
+    background-image: url(https://gaviaspreview.com/wp/zilom/wp-content/uploads/2021/07/image-15.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#section1 > .explore{
+    margin-left: 20%; /* change */
+}
+
+#section1 > .explore > .exp_subheading{
+    color: #4D5FE3;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section1 > .explore > .exp_heading{
+    color: #000;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#section1 > .explore > .exp_para{
+    color: #94A2A7;
+}
+#section1 > .explore > div,p{
+    margin: 10px 0;
+}
+
+#section1 > .explore > .exp_form{
+    border: 1pt solid #94A2A7;
+    border-radius: 10px;
+    padding: 10px;
+}
+#section1 > .explore > .exp_form > input:first-child{
+    border-right: 1pt solid #94A2A7;
+}
+#section1 > .explore > .exp_form > input:last-child{
+    padding: 10px  30px;
+    background-color: #4D5FE3;
+    color: white    ;
+}
+#section1 > .explore > .exp_form > input, select{
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width:720px ) {
+    
+}
